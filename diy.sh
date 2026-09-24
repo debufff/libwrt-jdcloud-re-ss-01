@@ -19,7 +19,7 @@ uci add_list network.@device[0].ports=wan
 # LAN静态IP
 uci set network.lan.device='br-lan'
 uci set network.lan.proto='static'
-uci set network.lan.ipaddr='192.168.31.52'
+uci set network.lan.ipaddr='192.168.31.55'
 uci set network.lan.netmask='255.255.255.0'
 uci set network.lan.gateway='192.168.31.1'
 uci set network.lan.dns='192.168.31.1'
@@ -44,4 +44,4 @@ exit 0
 EOF
 chmod +x files/etc/uci-defaults/99-set-ap
 
-echo "[diy] DSA AP脚本：4口加入br-lan，IP=192.168.31.52"
+echo "[diy] DSA AP脚本：4口加入br-lan，IP=192.168.31.55"
