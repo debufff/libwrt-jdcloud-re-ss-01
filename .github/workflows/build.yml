@@ -84,6 +84,6 @@ jobs:
             京东云无线宝亚瑟 RE-SS-01 (IPQ6000 · 满血 NSS)
             - **uboot 刷入版本**：`squashfs-factory.bin`
             - **在线升级版本**：`squashfs-sysupgrade.bin`
-            - 默认后台：`192.168.31.1`  用户：`root`  密码：无
+            - 默认无DHCP 后台：`192.168.31.55`  用户：`root`  密码：无
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
