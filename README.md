@@ -12,20 +12,14 @@
 | 内存 / 闪存 | 512MB / 64G eMMC |
 | 分区 | 2G 大分区 + Hugo Uboot |
 
-## 内置功能
-
-- **科学上网**：PassWall2
-- **文件共享**：Samba4 + USB/eMMC 自动挂载（ext4/ntfs/exfat/vfat）
-- **内网穿透 / DDNS**：DDNS-GO + 传统 DDNS（阿里云 / DNSPod）
-- **VPN**：WireGuard
-- **网络**：UPnP、dnsmasq-full
-- **界面 / 工具**：Argon 主题、ttyd 网页终端、FileBrowser 网页文件管理
+## AP专用精简配置，首次开机自动切AP
 
 ## 默认登录信息
 
-- 后台地址：`http://10.0.0.1`
+- 后台地址：`http://192.168.31.55`
 - 用户名：`root`
-- 密码：`root`
+- 密码：无
+- 关闭了DHCP，主路由ip必须是192.168.31.1，否则需要在diy.sh里修改ip后自行编译
 
 ## 固件说明
 
