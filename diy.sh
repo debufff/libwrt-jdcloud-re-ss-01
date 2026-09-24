@@ -1,5 +1,5 @@
 #!/bin/bash
-# LibWrt 25.12  DSA AP预置脚本  适配Dave's Guitar（小米CR8808）
+# LibWrt 25.12
 set -e
 
 mkdir -p files/etc/uci-defaults
